@@ -1,9 +1,5 @@
-inoremap jk <Esc>
-vnoremap y "+y
-vnoremap p "+p
-nnoremap y "+y
-nnoremap p "+p
-nnoremap <Space>aa ggVG
+inoremap jk <esc> 
+set clipboard=unnamedplus
+nnoremap <space>aa ggvg
 set relativenumber
 set number
-set incsearch
