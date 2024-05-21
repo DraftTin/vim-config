@@ -11,4 +11,5 @@ set number
 " incremental search
 set incsearch
 " smartcase for search
+set ignorecase
 set smartcase
