@@ -1,5 +1,14 @@
-inoremap jk <esc> 
+" no <Esc>
+inoremap jk <Esc>
+" work with system clipboard
 set clipboard=unnamedplus
-nnoremap <space>aa ggvg
+" shortcut for selecting all text
+nnoremap <Space>aa ggVG
+" show relativenumber
 set relativenumber
+" show line number
 set number
+" incremental search
+set incsearch
+" smartcase for search
+set smartcase
